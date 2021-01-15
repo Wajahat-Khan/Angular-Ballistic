@@ -1,0 +1,14 @@
+h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.disabled{
+    background-color: lightgray;
+    color: grey;
+}
+.active:hover{
+    cursor: pointer;
+}
+.bold{
+    font-weight: bold;
+}
