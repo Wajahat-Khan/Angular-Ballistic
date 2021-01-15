@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     this.reset();
   }
   close(alert: Alert) {
-    this.alerts.splice(this.alerts.indexOf(alert), 1);
+    // this.alerts.splice(this.alerts.indexOf(alert), 1);
     this.alert_show=false;
   }
 
