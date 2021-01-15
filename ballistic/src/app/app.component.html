@@ -1,4 +1,9 @@
 <div class="container">
+  <div *ngIf="this.alert_show === true" class="alert">
+  <p  *ngFor="let alert of alerts">
+    <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
+  </p>
+</div>
   <h2 class="main-heading">Customer's Data</h2>
 <table class="table table-hover">
   <thead class="thead-dark">
